@@ -1,0 +1,76 @@
+// Define window size here
+$desktop: 1440px;
+$mobile: 375px;
+
+
+// Define fonts path here
+$fonts-path: "./assets/fonts/static/";
+
+// Define font here
+$font-family: "HankenGrotesk", sans-serif;
+
+// Weights
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
+// Synonyms
+$regular-weight:    $normal-weight;
+$book-weight:       $light-weight;
+$xlight-weight:     $hairline-weight;
+$ultralight-weight: $hairline-weight;
+$heavy-weight:      $xbold-weight;
+
+// Primary Colors
+$light-red: hsl(0, 100%, 67%);
+$light-red-background: hsla(0, 100%, 67%, 0.1);
+$orangey-yellow: hsl(39, 100%, 56%);
+$orangey-yellow-background: hsla(39, 100%, 56%, 0.1);
+$green-teal: hsl(166, 100%, 37%);
+$green-teal-background: hsla(166, 100%, 37%, 0.1);
+$cobalt-blue: hsl(234, 85%, 45%);
+$cobalt-blue-background: hsla(234, 85%, 45%, 0.1);
+
+// Neutral Colors
+$white: hsl(0, 0%, 100%);
+$pale-blue: hsl(221, 100%, 96%);
+$light-lavender: hsl(241, 100%, 89%);
+$dark-gray-blue: hsl(224, 30%, 27%);
+
+// Gradient background
+$light-state-blue: hsl(252, 100%, 67%);
+$light-royal-blue: hsl(241, 81%, 54%);
+
+// Gradient circle
+$violet-blue: hsla(256, 72%, 46%, 1);
+$persian-blue: hsla(241, 72%, 46%, 0);
+
+@font-face {
+    font-family: $font-family;
+    font-weight: $medium-weight;
+    src: url("#{$fonts-path}HankenGrotesk-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: $font-family;
+    font-weight: $bold-weight;
+    src: url("#{$fonts-path}HankenGrotesk-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: $font-family;
+    font-weight: $xbold-weight;
+    src: url("#{$fonts-path}HankenGrotesk-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: $font-family;
+    font-weight: $regular-weight;
+    src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+}

@@ -5,43 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet"  type="text/css" href="style.css">
   
   <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Your Result
-  76
-  of 100
+  <main>
+    <div class="container">
+      <div class="results">
+        <div class="results-title">Your Result</div>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
+        <div class="score">76
+          <span class="percent">of 100</span>
+        </div>
+
+        <div class="grade">Great</div>
+
+        <div class="description">You scored higher than 65% of the people who have taken these tests.</div>
+      
+      </div>
+
+      <div class="summary">
+        <div class="summary-title">Summary</div>
+
+        <div class="reaction">
+          <div class="label">Reaction</div>
+          <div class="score">80 / 100</div>
+        </div>
+        
+        <div class="memory">
+          <div class="label">Memory</div>
+          <div class="score">92 / 100</div>
+        </div>
+
+        <div class="verbal">
+          <div class="label">Verbal</div>
+          <div class="score">61 / 100</div>
+        </div>
+
+        <div class="visual">
+          <div class="label">Visual</div>
+          <div class="score">72 / 100</div>
+        </div>
+
+        <div class="continue">
+          <button>Continue</button>
+        </div>
+
+      </div>
+    </div>
+  </main>
   
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#">Emirhan Boyaci</a>.
+  </footer>
+  
 </body>
 </html>
